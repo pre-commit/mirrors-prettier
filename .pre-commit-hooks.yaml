@@ -5,4 +5,4 @@
     'types': [text]
     args: []
     require_serial: false
-    additional_dependencies: ["prettier@1.13.0"]
+    additional_dependencies: ["prettier@1.13.1"]
