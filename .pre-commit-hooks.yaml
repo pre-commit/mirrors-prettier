@@ -1,0 +1,8 @@
+-   id: prettier
+    name: prettier
+    entry: prettier --write --list-different --ignore-unknown
+    language: node
+    'types': [text]
+    args: []
+    require_serial: false
+    additional_dependencies: ["prettier@0.0.1"]
