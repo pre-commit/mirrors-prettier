@@ -2,7 +2,7 @@
     name: prettier
     entry: prettier --write --list-different --ignore-unknown
     language: node
-    'types': [text]
+    'types': [css, html, graphql, markdown, javascript, json, typescript, yaml]
     args: []
     require_serial: false
     additional_dependencies: ["prettier@2.2.1"]
