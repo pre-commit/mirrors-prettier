@@ -29,7 +29,7 @@ When using plugins with `prettier` you'll need to declare them under
     -   id: prettier
         additional_dependencies:
         -   prettier@2.1.2
-        -   @prettier/plugin-xml@0.12.0
+        -   '@prettier/plugin-xml@0.12.0'
 ```
 
 By default, all files are passed to `prettier`, if you want to limit the
