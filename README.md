@@ -19,6 +19,8 @@ Add this to your `.pre-commit-config.yaml`:
     -   id: prettier
 ```
 
+*note*: only prettier versions >= 2.1.0 are supported
+
 When using plugins with `prettier` you'll need to declare them under
 `additional_dependencies`. For example:
 
