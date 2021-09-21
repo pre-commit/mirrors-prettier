@@ -1,6 +1,6 @@
 -   id: prettier
     name: prettier
-    entry: prettier --write --list-different --ignore-unknown
+    entry: prettier --write --list-different --ignore-unknown --no-error-on-unmatched-pattern
     language: node
     'types': [text]
     args: []
