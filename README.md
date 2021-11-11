@@ -35,9 +35,9 @@ When using plugins with `prettier` you'll need to declare them under
 ```
 
 By default, all files are passed to `prettier`, if you want to limit the
-file list, adjust `types` / `files`:
+file list, adjust `types` / `types_or` / `files`:
 
 ```yaml
     -   id: prettier
-        types: [javascript]
+        types_or: [css, javascript]
 ```
