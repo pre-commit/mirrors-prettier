@@ -1,7 +1,7 @@
 name: main
 on:
   push:
-    branches: [master]
+    branches: [main]
   schedule:
   - cron: '15 8 * * *'
 
@@ -18,6 +18,6 @@ jobs:
     - run: pre-commit-mirror . --language=node --package-name=prettier --types=text --entry='prettier --write --list-different --ignore-unknown' --id=prettier
     - run: |
         git remote set-url origin https://x-access-token:$GH_TOKEN@github.com/$GITHUB_REPOSITORY
-        git push origin HEAD:refs/heads/master --tags
+        git push origin HEAD:refs/heads/main --tags
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
