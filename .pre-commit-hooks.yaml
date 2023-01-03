@@ -3,7 +3,7 @@
     description: ''
     entry: prettier --write --list-different --ignore-unknown
     language: node
-    'types': [text]
+    'types': [javascript, html, css, graphql, markdown, yaml, php, pug, ruby, xml, apex, astro, elm, erb, glsl, go-template, java, jsonata, kotlin, motoko, nginx, prisma, properties, sh, sql, solidity, svelte, toml]
     args: []
     require_serial: false
     additional_dependencies: ["prettier@3.0.0-alpha.4"]
