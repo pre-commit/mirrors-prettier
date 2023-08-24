@@ -3,8 +3,9 @@
     description: ''
     entry: prettier --write --list-different --ignore-unknown
     language: node
-    'types': [text]
+    types: [text]
     args: []
     require_serial: false
     additional_dependencies: ["prettier@3.0.2"]
     minimum_pre_commit_version: '0'
+    stages: [pre-commit, pre-merge-commit, pre-push, manual]
